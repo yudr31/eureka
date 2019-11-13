@@ -1,7 +1,7 @@
 FROM openjdk:8
 MAINTAINER yuderen yuderen6312@163.com
 
-COPY ./target/eureka-1.0-SNAPSHOT.jar /home/eureka.jar
+COPY /tmp/java/eureka-1.0-SNAPSHOT.jar /home/eureka.jar
 
 WORKDIR /home
 
